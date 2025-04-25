@@ -1,0 +1,9 @@
+0.6
+2018.3
+Dec  7 2018
+00:33:28
+C:/Users/dell/Desktop/Tensor/project_2/project_2/project_2.sim/sim_1/behav/xsim/glbl.v,1544155481,verilog,,,,glbl,,,,,,,,
+C:/Users/dell/Desktop/Tensor/project_2/project_2/project_2.srcs/sim_1/new/tb_tensor_processing_unit.sv,1745395682,systemVerilog,,,,tb_tensor_processing_unit,,,,,,,,
+C:/Users/dell/Desktop/Tensor/project_2/project_2/project_2.srcs/sources_1/new/mixed_precision_pe.sv,1745317940,systemVerilog,,C:/Users/dell/Desktop/Tensor/project_2/project_2/project_2.srcs/sources_1/new/tensor_compute_core.sv,,mixed_precision_pe,,,,,,,,
+C:/Users/dell/Desktop/Tensor/project_2/project_2/project_2.srcs/sources_1/new/tensor_compute_core.sv,1745290297,systemVerilog,,C:/Users/dell/Desktop/Tensor/project_2/project_2/project_2.srcs/sources_1/new/tensor_processing_unit.sv,,tensor_compute_core,,,,,,,,
+C:/Users/dell/Desktop/Tensor/project_2/project_2/project_2.srcs/sources_1/new/tensor_processing_unit.sv,1745290299,systemVerilog,,C:/Users/dell/Desktop/Tensor/project_2/project_2/project_2.srcs/sim_1/new/tb_tensor_processing_unit.sv,,tensor_processing_unit,,,,,,,,

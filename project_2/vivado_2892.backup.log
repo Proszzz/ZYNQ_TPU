@@ -1,0 +1,808 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Wed Apr 23 09:13:10 2025
+# Process ID: 2892
+# Current directory: C:/Users/dell/Desktop/Tensor/project_2/project_2
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent10024 C:\Users\dell\Desktop\Tensor\project_2\project_2\project_2.xpr
+# Log file: C:/Users/dell/Desktop/Tensor/project_2/project_2/vivado.log
+# Journal file: C:/Users/dell/Desktop/Tensor/project_2/project_2\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/dell/Desktop/Tensor/project_2/project_2/project_2.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.3/data/ip'.
+open_project: Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 789.656 ; gain = 109.852
+update_compile_order -fileset sources_1
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/dell/Desktop/Tensor/project_2/project_2/project_2.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_tensor_processing_unit' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/dell/Desktop/Tensor/project_2/project_2/project_2.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj tb_tensor_processing_unit_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/dell/Desktop/Tensor/project_2/project_2/project_2.srcs/sources_1/new/mixed_precision_pe.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mixed_precision_pe
+WARNING: [VRFC 10-3824] variable 'leading_zeros' must explicitly be declared as automatic or static [C:/Users/dell/Desktop/Tensor/project_2/project_2/project_2.srcs/sources_1/new/mixed_precision_pe.sv:556]
+WARNING: [VRFC 10-3824] variable 'leading_zeros' must explicitly be declared as automatic or static [C:/Users/dell/Desktop/Tensor/project_2/project_2/project_2.srcs/sources_1/new/mixed_precision_pe.sv:682]
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/dell/Desktop/Tensor/project_2/project_2/project_2.srcs/sources_1/new/tensor_compute_core.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tensor_compute_core
+WARNING: [VRFC 10-3824] variable 'leading_zeros' must explicitly be declared as automatic or static [C:/Users/dell/Desktop/Tensor/project_2/project_2/project_2.srcs/sources_1/new/tensor_compute_core.sv:146]
+WARNING: [VRFC 10-3824] variable 'leading_zeros' must explicitly be declared as automatic or static [C:/Users/dell/Desktop/Tensor/project_2/project_2/project_2.srcs/sources_1/new/tensor_compute_core.sv:252]
+WARNING: [VRFC 10-3824] variable 'all_active_pes_done' must explicitly be declared as automatic or static [C:/Users/dell/Desktop/Tensor/project_2/project_2/project_2.srcs/sources_1/new/tensor_compute_core.sv:366]
+WARNING: [VRFC 10-3824] variable 'res8' must explicitly be declared as automatic or static [C:/Users/dell/Desktop/Tensor/project_2/project_2/project_2.srcs/sources_1/new/tensor_compute_core.sv:583]
+WARNING: [VRFC 10-3824] variable 'c8' must explicitly be declared as automatic or static [C:/Users/dell/Desktop/Tensor/project_2/project_2/project_2.srcs/sources_1/new/tensor_compute_core.sv:584]
+WARNING: [VRFC 10-3824] variable 'res16' must explicitly be declared as automatic or static [C:/Users/dell/Desktop/Tensor/project_2/project_2/project_2.srcs/sources_1/new/tensor_compute_core.sv:597]
+WARNING: [VRFC 10-3824] variable 'c16' must explicitly be declared as automatic or static [C:/Users/dell/Desktop/Tensor/project_2/project_2/project_2.srcs/sources_1/new/tensor_compute_core.sv:598]
+WARNING: [VRFC 10-3824] variable 'res_fp16' must explicitly be declared as automatic or static [C:/Users/dell/Desktop/Tensor/project_2/project_2/project_2.srcs/sources_1/new/tensor_compute_core.sv:611]
+WARNING: [VRFC 10-3824] variable 'c_fp16' must explicitly be declared as automatic or static [C:/Users/dell/Desktop/Tensor/project_2/project_2/project_2.srcs/sources_1/new/tensor_compute_core.sv:612]
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/dell/Desktop/Tensor/project_2/project_2/project_2.srcs/sources_1/new/tensor_processing_unit.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tensor_processing_unit
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/dell/Desktop/Tensor/project_2/project_2/project_2.srcs/sim_1/new/tb_tensor_processing_unit.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_tensor_processing_unit
+WARNING: [VRFC 10-3824] variable 'index' must explicitly be declared as automatic or static [C:/Users/dell/Desktop/Tensor/project_2/project_2/project_2.srcs/sim_1/new/tb_tensor_processing_unit.sv:234]
+WARNING: [VRFC 10-3824] variable 'index' must explicitly be declared as automatic or static [C:/Users/dell/Desktop/Tensor/project_2/project_2/project_2.srcs/sim_1/new/tb_tensor_processing_unit.sv:242]
+WARNING: [VRFC 10-3824] variable 'index' must explicitly be declared as automatic or static [C:/Users/dell/Desktop/Tensor/project_2/project_2/project_2.srcs/sim_1/new/tb_tensor_processing_unit.sv:250]
+WARNING: [VRFC 10-3824] variable 'index' must explicitly be declared as automatic or static [C:/Users/dell/Desktop/Tensor/project_2/project_2/project_2.srcs/sim_1/new/tb_tensor_processing_unit.sv:315]
+WARNING: [VRFC 10-3824] variable 'sum' must explicitly be declared as automatic or static [C:/Users/dell/Desktop/Tensor/project_2/project_2/project_2.srcs/sim_1/new/tb_tensor_processing_unit.sv:413]
+WARNING: [VRFC 10-3824] variable 'a_val' must explicitly be declared as automatic or static [C:/Users/dell/Desktop/Tensor/project_2/project_2/project_2.srcs/sim_1/new/tb_tensor_processing_unit.sv:416]
+WARNING: [VRFC 10-3824] variable 'b_val' must explicitly be declared as automatic or static [C:/Users/dell/Desktop/Tensor/project_2/project_2/project_2.srcs/sim_1/new/tb_tensor_processing_unit.sv:417]
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/dell/Desktop/Tensor/project_2/project_2/project_2.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto c795daf10eb14e3ebbc013c00ba6f998 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_tensor_processing_unit_behav xil_defaultlib.tb_tensor_processing_unit xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "C:/Users/dell/Desktop/Tensor/project_2/project_2/project_2.srcs/sources_1/new/tensor_processing_unit.sv" Line 1. Module tensor_processing_unit(CORE_ADDR_WIDTH=10) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/dell/Desktop/Tensor/project_2/project_2/project_2.srcs/sources_1/new/tensor_compute_core.sv" Line 1. Module tensor_compute_core_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/dell/Desktop/Tensor/project_2/project_2/project_2.srcs/sources_1/new/mixed_precision_pe.sv" Line 1. Module mixed_precision_pe doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/dell/Desktop/Tensor/project_2/project_2/project_2.srcs/sources_1/new/mixed_precision_pe.sv" Line 1. Module mixed_precision_pe(PE_ID=1) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/dell/Desktop/Tensor/project_2/project_2/project_2.srcs/sources_1/new/mixed_precision_pe.sv" Line 1. Module mixed_precision_pe(PE_ID=2) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/dell/Desktop/Tensor/project_2/project_2/project_2.srcs/sources_1/new/mixed_precision_pe.sv" Line 1. Module mixed_precision_pe(PE_ID=3) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/dell/Desktop/Tensor/project_2/project_2/project_2.srcs/sources_1/new/mixed_precision_pe.sv" Line 1. Module mixed_precision_pe(PE_ID=4) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/dell/Desktop/Tensor/project_2/project_2/project_2.srcs/sources_1/new/mixed_precision_pe.sv" Line 1. Module mixed_precision_pe(PE_ID=5) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/dell/Desktop/Tensor/project_2/project_2/project_2.srcs/sources_1/new/mixed_precision_pe.sv" Line 1. Module mixed_precision_pe(PE_ID=6) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/dell/Desktop/Tensor/project_2/project_2/project_2.srcs/sources_1/new/mixed_precision_pe.sv" Line 1. Module mixed_precision_pe(PE_ID=7) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/dell/Desktop/Tensor/project_2/project_2/project_2.srcs/sources_1/new/mixed_precision_pe.sv" Line 1. Module mixed_precision_pe(PE_ID=8) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/dell/Desktop/Tensor/project_2/project_2/project_2.srcs/sources_1/new/mixed_precision_pe.sv" Line 1. Module mixed_precision_pe(PE_ID=9) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/dell/Desktop/Tensor/project_2/project_2/project_2.srcs/sources_1/new/mixed_precision_pe.sv" Line 1. Module mixed_precision_pe(PE_ID=10) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/dell/Desktop/Tensor/project_2/project_2/project_2.srcs/sources_1/new/mixed_precision_pe.sv" Line 1. Module mixed_precision_pe(PE_ID=11) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/dell/Desktop/Tensor/project_2/project_2/project_2.srcs/sources_1/new/mixed_precision_pe.sv" Line 1. Module mixed_precision_pe(PE_ID=12) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/dell/Desktop/Tensor/project_2/project_2/project_2.srcs/sources_1/new/mixed_precision_pe.sv" Line 1. Module mixed_precision_pe(PE_ID=13) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/dell/Desktop/Tensor/project_2/project_2/project_2.srcs/sources_1/new/mixed_precision_pe.sv" Line 1. Module mixed_precision_pe(PE_ID=14) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/dell/Desktop/Tensor/project_2/project_2/project_2.srcs/sources_1/new/mixed_precision_pe.sv" Line 1. Module mixed_precision_pe(PE_ID=15) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/dell/Desktop/Tensor/project_2/project_2/project_2.srcs/sources_1/new/mixed_precision_pe.sv" Line 1. Module mixed_precision_pe(PE_ID=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/dell/Desktop/Tensor/project_2/project_2/project_2.srcs/sources_1/new/mixed_precision_pe.sv" Line 1. Module mixed_precision_pe(PE_ID=17) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/dell/Desktop/Tensor/project_2/project_2/project_2.srcs/sources_1/new/mixed_precision_pe.sv" Line 1. Module mixed_precision_pe(PE_ID=18) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/dell/Desktop/Tensor/project_2/project_2/project_2.srcs/sources_1/new/mixed_precision_pe.sv" Line 1. Module mixed_precision_pe(PE_ID=19) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/dell/Desktop/Tensor/project_2/project_2/project_2.srcs/sources_1/new/mixed_precision_pe.sv" Line 1. Module mixed_precision_pe(PE_ID=20) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/dell/Desktop/Tensor/project_2/project_2/project_2.srcs/sources_1/new/mixed_precision_pe.sv" Line 1. Module mixed_precision_pe(PE_ID=21) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/dell/Desktop/Tensor/project_2/project_2/project_2.srcs/sources_1/new/mixed_precision_pe.sv" Line 1. Module mixed_precision_pe(PE_ID=22) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/dell/Desktop/Tensor/project_2/project_2/project_2.srcs/sources_1/new/mixed_precision_pe.sv" Line 1. Module mixed_precision_pe(PE_ID=23) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/dell/Desktop/Tensor/project_2/project_2/project_2.srcs/sources_1/new/mixed_precision_pe.sv" Line 1. Module mixed_precision_pe(PE_ID=24) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/dell/Desktop/Tensor/project_2/project_2/project_2.srcs/sources_1/new/mixed_precision_pe.sv" Line 1. Module mixed_precision_pe(PE_ID=25) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/dell/Desktop/Tensor/project_2/project_2/project_2.srcs/sources_1/new/mixed_precision_pe.sv" Line 1. Module mixed_precision_pe(PE_ID=26) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/dell/Desktop/Tensor/project_2/project_2/project_2.srcs/sources_1/new/mixed_precision_pe.sv" Line 1. Module mixed_precision_pe(PE_ID=27) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/dell/Desktop/Tensor/project_2/project_2/project_2.srcs/sources_1/new/mixed_precision_pe.sv" Line 1. Module mixed_precision_pe(PE_ID=28) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/dell/Desktop/Tensor/project_2/project_2/project_2.srcs/sources_1/new/mixed_precision_pe.sv" Line 1. Module mixed_precision_pe(PE_ID=29) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/dell/Desktop/Tensor/project_2/project_2/project_2.srcs/sources_1/new/mixed_precision_pe.sv" Line 1. Module mixed_precision_pe(PE_ID=30) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/dell/Desktop/Tensor/project_2/project_2/project_2.srcs/sources_1/new/mixed_precision_pe.sv" Line 1. Module mixed_precision_pe(PE_ID=31) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/dell/Desktop/Tensor/project_2/project_2/project_2.srcs/sources_1/new/mixed_precision_pe.sv" Line 1. Module mixed_precision_pe(PE_ID=32) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/dell/Desktop/Tensor/project_2/project_2/project_2.srcs/sources_1/new/mixed_precision_pe.sv" Line 1. Module mixed_precision_pe(PE_ID=33) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/dell/Desktop/Tensor/project_2/project_2/project_2.srcs/sources_1/new/mixed_precision_pe.sv" Line 1. Module mixed_precision_pe(PE_ID=34) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/dell/Desktop/Tensor/project_2/project_2/project_2.srcs/sources_1/new/mixed_precision_pe.sv" Line 1. Module mixed_precision_pe(PE_ID=35) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/dell/Desktop/Tensor/project_2/project_2/project_2.srcs/sources_1/new/mixed_precision_pe.sv" Line 1. Module mixed_precision_pe(PE_ID=36) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/dell/Desktop/Tensor/project_2/project_2/project_2.srcs/sources_1/new/mixed_precision_pe.sv" Line 1. Module mixed_precision_pe(PE_ID=37) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/dell/Desktop/Tensor/project_2/project_2/project_2.srcs/sources_1/new/mixed_precision_pe.sv" Line 1. Module mixed_precision_pe(PE_ID=38) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/dell/Desktop/Tensor/project_2/project_2/project_2.srcs/sources_1/new/mixed_precision_pe.sv" Line 1. Module mixed_precision_pe(PE_ID=39) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/dell/Desktop/Tensor/project_2/project_2/project_2.srcs/sources_1/new/mixed_precision_pe.sv" Line 1. Module mixed_precision_pe(PE_ID=40) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/dell/Desktop/Tensor/project_2/project_2/project_2.srcs/sources_1/new/mixed_precision_pe.sv" Line 1. Module mixed_precision_pe(PE_ID=41) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/dell/Desktop/Tensor/project_2/project_2/project_2.srcs/sources_1/new/mixed_precision_pe.sv" Line 1. Module mixed_precision_pe(PE_ID=42) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/dell/Desktop/Tensor/project_2/project_2/project_2.srcs/sources_1/new/mixed_precision_pe.sv" Line 1. Module mixed_precision_pe(PE_ID=43) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/dell/Desktop/Tensor/project_2/project_2/project_2.srcs/sources_1/new/mixed_precision_pe.sv" Line 1. Module mixed_precision_pe(PE_ID=44) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/dell/Desktop/Tensor/project_2/project_2/project_2.srcs/sources_1/new/mixed_precision_pe.sv" Line 1. Module mixed_precision_pe(PE_ID=45) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/dell/Desktop/Tensor/project_2/project_2/project_2.srcs/sources_1/new/mixed_precision_pe.sv" Line 1. Module mixed_precision_pe(PE_ID=46) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/dell/Desktop/Tensor/project_2/project_2/project_2.srcs/sources_1/new/mixed_precision_pe.sv" Line 1. Module mixed_precision_pe(PE_ID=47) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/dell/Desktop/Tensor/project_2/project_2/project_2.srcs/sources_1/new/mixed_precision_pe.sv" Line 1. Module mixed_precision_pe(PE_ID=48) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/dell/Desktop/Tensor/project_2/project_2/project_2.srcs/sources_1/new/mixed_precision_pe.sv" Line 1. Module mixed_precision_pe(PE_ID=49) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/dell/Desktop/Tensor/project_2/project_2/project_2.srcs/sources_1/new/mixed_precision_pe.sv" Line 1. Module mixed_precision_pe(PE_ID=50) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/dell/Desktop/Tensor/project_2/project_2/project_2.srcs/sources_1/new/mixed_precision_pe.sv" Line 1. Module mixed_precision_pe(PE_ID=51) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/dell/Desktop/Tensor/project_2/project_2/project_2.srcs/sources_1/new/mixed_precision_pe.sv" Line 1. Module mixed_precision_pe(PE_ID=52) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/dell/Desktop/Tensor/project_2/project_2/project_2.srcs/sources_1/new/mixed_precision_pe.sv" Line 1. Module mixed_precision_pe(PE_ID=53) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/dell/Desktop/Tensor/project_2/project_2/project_2.srcs/sources_1/new/mixed_precision_pe.sv" Line 1. Module mixed_precision_pe(PE_ID=54) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/dell/Desktop/Tensor/project_2/project_2/project_2.srcs/sources_1/new/mixed_precision_pe.sv" Line 1. Module mixed_precision_pe(PE_ID=55) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/dell/Desktop/Tensor/project_2/project_2/project_2.srcs/sources_1/new/mixed_precision_pe.sv" Line 1. Module mixed_precision_pe(PE_ID=56) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/dell/Desktop/Tensor/project_2/project_2/project_2.srcs/sources_1/new/mixed_precision_pe.sv" Line 1. Module mixed_precision_pe(PE_ID=57) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/dell/Desktop/Tensor/project_2/project_2/project_2.srcs/sources_1/new/mixed_precision_pe.sv" Line 1. Module mixed_precision_pe(PE_ID=58) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/dell/Desktop/Tensor/project_2/project_2/project_2.srcs/sources_1/new/mixed_precision_pe.sv" Line 1. Module mixed_precision_pe(PE_ID=59) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/dell/Desktop/Tensor/project_2/project_2/project_2.srcs/sources_1/new/mixed_precision_pe.sv" Line 1. Module mixed_precision_pe(PE_ID=60) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/dell/Desktop/Tensor/project_2/project_2/project_2.srcs/sources_1/new/mixed_precision_pe.sv" Line 1. Module mixed_precision_pe(PE_ID=61) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/dell/Desktop/Tensor/project_2/project_2/project_2.srcs/sources_1/new/mixed_precision_pe.sv" Line 1. Module mixed_precision_pe(PE_ID=62) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/dell/Desktop/Tensor/project_2/project_2/project_2.srcs/sources_1/new/mixed_precision_pe.sv" Line 1. Module mixed_precision_pe(PE_ID=63) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/dell/Desktop/Tensor/project_2/project_2/project_2.srcs/sources_1/new/mixed_precision_pe.sv" Line 1. Module mixed_precision_pe(PE_ID=64) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/dell/Desktop/Tensor/project_2/project_2/project_2.srcs/sources_1/new/mixed_precision_pe.sv" Line 1. Module mixed_precision_pe(PE_ID=65) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/dell/Desktop/Tensor/project_2/project_2/project_2.srcs/sources_1/new/mixed_precision_pe.sv" Line 1. Module mixed_precision_pe(PE_ID=66) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/dell/Desktop/Tensor/project_2/project_2/project_2.srcs/sources_1/new/mixed_precision_pe.sv" Line 1. Module mixed_precision_pe(PE_ID=67) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/dell/Desktop/Tensor/project_2/project_2/project_2.srcs/sources_1/new/mixed_precision_pe.sv" Line 1. Module mixed_precision_pe(PE_ID=68) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/dell/Desktop/Tensor/project_2/project_2/project_2.srcs/sources_1/new/mixed_precision_pe.sv" Line 1. Module mixed_precision_pe(PE_ID=69) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/dell/Desktop/Tensor/project_2/project_2/project_2.srcs/sources_1/new/mixed_precision_pe.sv" Line 1. Module mixed_precision_pe(PE_ID=70) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/dell/Desktop/Tensor/project_2/project_2/project_2.srcs/sources_1/new/mixed_precision_pe.sv" Line 1. Module mixed_precision_pe(PE_ID=71) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/dell/Desktop/Tensor/project_2/project_2/project_2.srcs/sources_1/new/mixed_precision_pe.sv" Line 1. Module mixed_precision_pe(PE_ID=72) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/dell/Desktop/Tensor/project_2/project_2/project_2.srcs/sources_1/new/mixed_precision_pe.sv" Line 1. Module mixed_precision_pe(PE_ID=73) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/dell/Desktop/Tensor/project_2/project_2/project_2.srcs/sources_1/new/mixed_precision_pe.sv" Line 1. Module mixed_precision_pe(PE_ID=74) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/dell/Desktop/Tensor/project_2/project_2/project_2.srcs/sources_1/new/mixed_precision_pe.sv" Line 1. Module mixed_precision_pe(PE_ID=75) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/dell/Desktop/Tensor/project_2/project_2/project_2.srcs/sources_1/new/mixed_precision_pe.sv" Line 1. Module mixed_precision_pe(PE_ID=76) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/dell/Desktop/Tensor/project_2/project_2/project_2.srcs/sources_1/new/mixed_precision_pe.sv" Line 1. Module mixed_precision_pe(PE_ID=77) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/dell/Desktop/Tensor/project_2/project_2/project_2.srcs/sources_1/new/mixed_precision_pe.sv" Line 1. Module mixed_precision_pe(PE_ID=78) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/dell/Desktop/Tensor/project_2/project_2/project_2.srcs/sources_1/new/mixed_precision_pe.sv" Line 1. Module mixed_precision_pe(PE_ID=79) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/dell/Desktop/Tensor/project_2/project_2/project_2.srcs/sources_1/new/mixed_precision_pe.sv" Line 1. Module mixed_precision_pe(PE_ID=80) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/dell/Desktop/Tensor/project_2/project_2/project_2.srcs/sources_1/new/mixed_precision_pe.sv" Line 1. Module mixed_precision_pe(PE_ID=81) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/dell/Desktop/Tensor/project_2/project_2/project_2.srcs/sources_1/new/mixed_precision_pe.sv" Line 1. Module mixed_precision_pe(PE_ID=82) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/dell/Desktop/Tensor/project_2/project_2/project_2.srcs/sources_1/new/mixed_precision_pe.sv" Line 1. Module mixed_precision_pe(PE_ID=83) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/dell/Desktop/Tensor/project_2/project_2/project_2.srcs/sources_1/new/mixed_precision_pe.sv" Line 1. Module mixed_precision_pe(PE_ID=84) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/dell/Desktop/Tensor/project_2/project_2/project_2.srcs/sources_1/new/mixed_precision_pe.sv" Line 1. Module mixed_precision_pe(PE_ID=85) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/dell/Desktop/Tensor/project_2/project_2/project_2.srcs/sources_1/new/mixed_precision_pe.sv" Line 1. Module mixed_precision_pe(PE_ID=86) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/dell/Desktop/Tensor/project_2/project_2/project_2.srcs/sources_1/new/mixed_precision_pe.sv" Line 1. Module mixed_precision_pe(PE_ID=87) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/dell/Desktop/Tensor/project_2/project_2/project_2.srcs/sources_1/new/mixed_precision_pe.sv" Line 1. Module mixed_precision_pe(PE_ID=88) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/dell/Desktop/Tensor/project_2/project_2/project_2.srcs/sources_1/new/mixed_precision_pe.sv" Line 1. Module mixed_precision_pe(PE_ID=89) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/dell/Desktop/Tensor/project_2/project_2/project_2.srcs/sources_1/new/mixed_precision_pe.sv" Line 1. Module mixed_precision_pe(PE_ID=90) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/dell/Desktop/Tensor/project_2/project_2/project_2.srcs/sources_1/new/mixed_precision_pe.sv" Line 1. Module mixed_precision_pe(PE_ID=91) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/dell/Desktop/Tensor/project_2/project_2/project_2.srcs/sources_1/new/mixed_precision_pe.sv" Line 1. Module mixed_precision_pe(PE_ID=92) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/dell/Desktop/Tensor/project_2/project_2/project_2.srcs/sources_1/new/mixed_precision_pe.sv" Line 1. Module mixed_precision_pe(PE_ID=93) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/dell/Desktop/Tensor/project_2/project_2/project_2.srcs/sources_1/new/mixed_precision_pe.sv" Line 1. Module mixed_precision_pe(PE_ID=94) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/dell/Desktop/Tensor/project_2/project_2/project_2.srcs/sources_1/new/mixed_precision_pe.sv" Line 1. Module mixed_precision_pe(PE_ID=95) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/dell/Desktop/Tensor/project_2/project_2/project_2.srcs/sources_1/new/mixed_precision_pe.sv" Line 1. Module mixed_precision_pe(PE_ID=96) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/dell/Desktop/Tensor/project_2/project_2/project_2.srcs/sources_1/new/mixed_precision_pe.sv" Line 1. Module mixed_precision_pe(PE_ID=97) doesn't have a timescale but at least one module in design has a timescale.
+INFO: [Common 17-14] Message 'XSIM 43-4099' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.mixed_precision_pe
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=1)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=2)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=3)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=4)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=5)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=6)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=7)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=8)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=9)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=10)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=11)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=12)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=13)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=14)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=15)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=16)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=17)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=18)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=19)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=20)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=21)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=22)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=23)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=24)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=25)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=26)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=27)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=28)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=29)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=30)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=31)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=32)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=33)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=34)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=35)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=36)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=37)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=38)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=39)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=40)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=41)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=42)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=43)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=44)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=45)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=46)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=47)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=48)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=49)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=50)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=51)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=52)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=53)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=54)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=55)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=56)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=57)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=58)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=59)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=60)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=61)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=62)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=63)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=64)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=65)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=66)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=67)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=68)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=69)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=70)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=71)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=72)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=73)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=74)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=75)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=76)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=77)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=78)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=79)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=80)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=81)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=82)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=83)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=84)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=85)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=86)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=87)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=88)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=89)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=90)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=91)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=92)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=93)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=94)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=95)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=96)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=97)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=98)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=99)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=100)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=101)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=102)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=103)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=104)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=105)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=106)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=107)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=108)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=109)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=110)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=111)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=112)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=113)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=114)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=115)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=116)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=117)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=118)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=119)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=120)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=121)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=122)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=123)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=124)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=125)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=126)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=127)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=128)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=129)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=130)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=131)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=132)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=133)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=134)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=135)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=136)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=137)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=138)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=139)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=140)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=141)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=142)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=143)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=144)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=145)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=146)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=147)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=148)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=149)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=150)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=151)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=152)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=153)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=154)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=155)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=156)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=157)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=158)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=159)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=160)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=161)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=162)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=163)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=164)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=165)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=166)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=167)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=168)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=169)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=170)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=171)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=172)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=173)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=174)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=175)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=176)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=177)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=178)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=179)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=180)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=181)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=182)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=183)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=184)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=185)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=186)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=187)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=188)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=189)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=190)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=191)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=192)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=193)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=194)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=195)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=196)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=197)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=198)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=199)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=200)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=201)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=202)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=203)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=204)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=205)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=206)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=207)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=208)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=209)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=210)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=211)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=212)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=213)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=214)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=215)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=216)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=217)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=218)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=219)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=220)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=221)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=222)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=223)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=224)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=225)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=226)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=227)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=228)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=229)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=230)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=231)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=232)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=233)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=234)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=235)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=236)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=237)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=238)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=239)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=240)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=241)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=242)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=243)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=244)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=245)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=246)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=247)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=248)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=249)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=250)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=251)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=252)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=253)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=254)
+Compiling module xil_defaultlib.mixed_precision_pe(PE_ID=255)
+Compiling module xil_defaultlib.tensor_compute_core_default
+Compiling module xil_defaultlib.tensor_processing_unit(CORE_ADDR...
+Compiling module xil_defaultlib.tb_tensor_processing_unit
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_tensor_processing_unit_behav
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:43 . Memory (MB): peak = 801.832 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '43' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/dell/Desktop/Tensor/project_2/project_2/project_2.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_tensor_processing_unit_behav -key {Behavioral:sim_1:Functional:tb_tensor_processing_unit} -tclbatch {tb_tensor_processing_unit.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+source tb_tensor_processing_unit.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+Initial test MATRIX...
+START TPU REG...
+already write reg addr=0x00000004, data=0x02004010
+already write reg addr=0x00000008, data=0x00000008
+already write reg addr=0x00000010, data=0x10000000
+already write reg addr=0x00000014, data=0x20000000
+already write reg addr=0x00000018, data=0x30000000
+already write reg addr=0x0000001c, data=0x40000000
+start compute...
+already write reg addr=0x00000000, data=0x00000001
+wait compute...
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_tensor_processing_unit_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:48 . Memory (MB): peak = 983.641 ; gain = 181.809
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run 100 us
+Initial test MATRIX...
+START TPU REG...
+already write reg addr=0x00000004, data=0x02004010
+already write reg addr=0x00000008, data=0x00000008
+already write reg addr=0x00000010, data=0x10000000
+already write reg addr=0x00000014, data=0x20000000
+already write reg addr=0x00000018, data=0x30000000
+already write reg addr=0x0000001c, data=0x40000000
+start compute...
+already write reg addr=0x00000000, data=0x00000001
+wait compute...
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+current_wave_config {Untitled 1}
+Untitled 1
+add_wave {{/tb_tensor_processing_unit/dut/k_dim}} 
+current_wave_config {Untitled 1}
+Untitled 1
+add_wave {{/tb_tensor_processing_unit/dut/fetch_index}} 
+current_wave_config {Untitled 1}
+Untitled 1
+add_wave {{/tb_tensor_processing_unit/dut/status_reg_done}} 
+current_wave_config {Untitled 1}
+Untitled 1
+add_wave {{/tb_tensor_processing_unit/dut/compute_core_inst/current_state}} 
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run 100 us
+Initial test MATRIX...
+START TPU REG...
+already write reg addr=0x00000004, data=0x02004010
+already write reg addr=0x00000008, data=0x00000008
+already write reg addr=0x00000010, data=0x10000000
+already write reg addr=0x00000014, data=0x20000000
+already write reg addr=0x00000018, data=0x30000000
+already write reg addr=0x0000001c, data=0x40000000
+start compute...
+already write reg addr=0x00000000, data=0x00000001
+wait compute...
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+save_wave_config {C:/Users/dell/Desktop/Tensor/project_2/project_2/project_2.sim/sim_1/tb_tensor_processing_unit_behav.wcfg}
+add_files -fileset sim_1 -norecurse C:/Users/dell/Desktop/Tensor/project_2/project_2/project_2.sim/sim_1/tb_tensor_processing_unit_behav.wcfg
+set_property xsim.view C:/Users/dell/Desktop/Tensor/project_2/project_2/project_2.sim/sim_1/tb_tensor_processing_unit_behav.wcfg [get_filesets sim_1]
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run 100 us
+Initial test MATRIX...
+START TPU REG...
+already write reg addr=0x00000004, data=0x02004010
+already write reg addr=0x00000008, data=0x00000008
+already write reg addr=0x00000010, data=0x10000000
+already write reg addr=0x00000014, data=0x20000000
+already write reg addr=0x00000018, data=0x30000000
+already write reg addr=0x0000001c, data=0x40000000
+start compute...
+already write reg addr=0x00000000, data=0x00000001
+wait compute...
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000
+already read reg addr=0x00000000, data=0x00000000

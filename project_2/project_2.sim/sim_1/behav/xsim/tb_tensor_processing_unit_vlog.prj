@@ -1,0 +1,12 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  \
+"../../../../project_2.srcs/sources_1/new/mixed_precision_pe.sv" \
+"../../../../project_2.srcs/sources_1/new/tensor_compute_core.sv" \
+"../../../../project_2.srcs/sources_1/new/tensor_processing_unit.sv" \
+"../../../../project_2.srcs/sim_1/new/tb_tensor_processing_unit.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

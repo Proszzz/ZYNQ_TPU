@@ -1,0 +1,1 @@
+-wto "c795daf10eb14e3ebbc013c00ba6f998" --incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "unisims_ver" -L "unimacro_ver" -L "secureip" --snapshot "tb_tensor_processing_unit_behav" "xil_defaultlib.tb_tensor_processing_unit" "xil_defaultlib.glbl" -log "elaborate.log" 

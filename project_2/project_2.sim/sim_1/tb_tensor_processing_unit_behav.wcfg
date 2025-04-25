@@ -1,0 +1,423 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_tensor_processing_unit_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_tensor_processing_unit" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="1680952000fs"></ZoomStartTime>
+      <ZoomEndTime time="5880952001fs"></ZoomEndTime>
+      <Cursor1Time time="4160952000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="263"></NameColumnWidth>
+      <ValueColumnWidth column_width="58"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="100" />
+   <wvobject fp_name="/tb_tensor_processing_unit/aclk" type="logic">
+      <obj_property name="ElementShortName">aclk</obj_property>
+      <obj_property name="ObjectShortName">aclk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_tensor_processing_unit/aresetn" type="logic">
+      <obj_property name="ElementShortName">aresetn</obj_property>
+      <obj_property name="ObjectShortName">aresetn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_tensor_processing_unit/s_axil_awvalid" type="logic">
+      <obj_property name="ElementShortName">s_axil_awvalid</obj_property>
+      <obj_property name="ObjectShortName">s_axil_awvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_tensor_processing_unit/s_axil_awready" type="logic">
+      <obj_property name="ElementShortName">s_axil_awready</obj_property>
+      <obj_property name="ObjectShortName">s_axil_awready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_tensor_processing_unit/s_axil_awaddr" type="array">
+      <obj_property name="ElementShortName">s_axil_awaddr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axil_awaddr[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_tensor_processing_unit/s_axil_wvalid" type="logic">
+      <obj_property name="ElementShortName">s_axil_wvalid</obj_property>
+      <obj_property name="ObjectShortName">s_axil_wvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_tensor_processing_unit/s_axil_wready" type="logic">
+      <obj_property name="ElementShortName">s_axil_wready</obj_property>
+      <obj_property name="ObjectShortName">s_axil_wready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_tensor_processing_unit/s_axil_wdata" type="array">
+      <obj_property name="ElementShortName">s_axil_wdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axil_wdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_tensor_processing_unit/s_axil_wstrb" type="array">
+      <obj_property name="ElementShortName">s_axil_wstrb[3:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axil_wstrb[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_tensor_processing_unit/s_axil_bvalid" type="logic">
+      <obj_property name="ElementShortName">s_axil_bvalid</obj_property>
+      <obj_property name="ObjectShortName">s_axil_bvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_tensor_processing_unit/s_axil_bready" type="logic">
+      <obj_property name="ElementShortName">s_axil_bready</obj_property>
+      <obj_property name="ObjectShortName">s_axil_bready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_tensor_processing_unit/s_axil_bresp" type="array">
+      <obj_property name="ElementShortName">s_axil_bresp[1:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axil_bresp[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_tensor_processing_unit/s_axil_arvalid" type="logic">
+      <obj_property name="ElementShortName">s_axil_arvalid</obj_property>
+      <obj_property name="ObjectShortName">s_axil_arvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_tensor_processing_unit/s_axil_arready" type="logic">
+      <obj_property name="ElementShortName">s_axil_arready</obj_property>
+      <obj_property name="ObjectShortName">s_axil_arready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_tensor_processing_unit/s_axil_araddr" type="array">
+      <obj_property name="ElementShortName">s_axil_araddr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axil_araddr[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_tensor_processing_unit/s_axil_rvalid" type="logic">
+      <obj_property name="ElementShortName">s_axil_rvalid</obj_property>
+      <obj_property name="ObjectShortName">s_axil_rvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_tensor_processing_unit/s_axil_rready" type="logic">
+      <obj_property name="ElementShortName">s_axil_rready</obj_property>
+      <obj_property name="ObjectShortName">s_axil_rready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_tensor_processing_unit/s_axil_rdata" type="array">
+      <obj_property name="ElementShortName">s_axil_rdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axil_rdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_tensor_processing_unit/s_axil_rresp" type="array">
+      <obj_property name="ElementShortName">s_axil_rresp[1:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axil_rresp[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_tensor_processing_unit/m_axi_read_arid" type="array">
+      <obj_property name="ElementShortName">m_axi_read_arid[0:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axi_read_arid[0:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_tensor_processing_unit/m_axi_read_araddr" type="array">
+      <obj_property name="ElementShortName">m_axi_read_araddr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axi_read_araddr[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_tensor_processing_unit/m_axi_read_arlen" type="array">
+      <obj_property name="ElementShortName">m_axi_read_arlen[7:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axi_read_arlen[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_tensor_processing_unit/m_axi_read_arsize" type="array">
+      <obj_property name="ElementShortName">m_axi_read_arsize[2:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axi_read_arsize[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_tensor_processing_unit/m_axi_read_arburst" type="array">
+      <obj_property name="ElementShortName">m_axi_read_arburst[1:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axi_read_arburst[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_tensor_processing_unit/m_axi_read_arlock" type="logic">
+      <obj_property name="ElementShortName">m_axi_read_arlock</obj_property>
+      <obj_property name="ObjectShortName">m_axi_read_arlock</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_tensor_processing_unit/m_axi_read_arcache" type="array">
+      <obj_property name="ElementShortName">m_axi_read_arcache[3:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axi_read_arcache[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_tensor_processing_unit/m_axi_read_arprot" type="array">
+      <obj_property name="ElementShortName">m_axi_read_arprot[2:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axi_read_arprot[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_tensor_processing_unit/m_axi_read_arqos" type="array">
+      <obj_property name="ElementShortName">m_axi_read_arqos[3:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axi_read_arqos[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_tensor_processing_unit/m_axi_read_arvalid" type="logic">
+      <obj_property name="ElementShortName">m_axi_read_arvalid</obj_property>
+      <obj_property name="ObjectShortName">m_axi_read_arvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_tensor_processing_unit/m_axi_read_arready" type="logic">
+      <obj_property name="ElementShortName">m_axi_read_arready</obj_property>
+      <obj_property name="ObjectShortName">m_axi_read_arready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_tensor_processing_unit/m_axi_read_rid" type="array">
+      <obj_property name="ElementShortName">m_axi_read_rid[0:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axi_read_rid[0:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_tensor_processing_unit/m_axi_read_rdata" type="array">
+      <obj_property name="ElementShortName">m_axi_read_rdata[63:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axi_read_rdata[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_tensor_processing_unit/m_axi_read_rresp" type="array">
+      <obj_property name="ElementShortName">m_axi_read_rresp[1:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axi_read_rresp[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_tensor_processing_unit/m_axi_read_rlast" type="logic">
+      <obj_property name="ElementShortName">m_axi_read_rlast</obj_property>
+      <obj_property name="ObjectShortName">m_axi_read_rlast</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_tensor_processing_unit/m_axi_read_rvalid" type="logic">
+      <obj_property name="ElementShortName">m_axi_read_rvalid</obj_property>
+      <obj_property name="ObjectShortName">m_axi_read_rvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_tensor_processing_unit/m_axi_read_rready" type="logic">
+      <obj_property name="ElementShortName">m_axi_read_rready</obj_property>
+      <obj_property name="ObjectShortName">m_axi_read_rready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_tensor_processing_unit/m_axi_awid" type="array">
+      <obj_property name="ElementShortName">m_axi_awid[0:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axi_awid[0:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_tensor_processing_unit/m_axi_awaddr" type="array">
+      <obj_property name="ElementShortName">m_axi_awaddr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axi_awaddr[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_tensor_processing_unit/m_axi_awlen" type="array">
+      <obj_property name="ElementShortName">m_axi_awlen[7:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axi_awlen[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_tensor_processing_unit/m_axi_awsize" type="array">
+      <obj_property name="ElementShortName">m_axi_awsize[2:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axi_awsize[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_tensor_processing_unit/m_axi_awburst" type="array">
+      <obj_property name="ElementShortName">m_axi_awburst[1:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axi_awburst[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_tensor_processing_unit/m_axi_awlock" type="logic">
+      <obj_property name="ElementShortName">m_axi_awlock</obj_property>
+      <obj_property name="ObjectShortName">m_axi_awlock</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_tensor_processing_unit/m_axi_awcache" type="array">
+      <obj_property name="ElementShortName">m_axi_awcache[3:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axi_awcache[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_tensor_processing_unit/m_axi_awprot" type="array">
+      <obj_property name="ElementShortName">m_axi_awprot[2:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axi_awprot[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_tensor_processing_unit/m_axi_awqos" type="array">
+      <obj_property name="ElementShortName">m_axi_awqos[3:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axi_awqos[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_tensor_processing_unit/m_axi_awvalid" type="logic">
+      <obj_property name="ElementShortName">m_axi_awvalid</obj_property>
+      <obj_property name="ObjectShortName">m_axi_awvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_tensor_processing_unit/m_axi_awready" type="logic">
+      <obj_property name="ElementShortName">m_axi_awready</obj_property>
+      <obj_property name="ObjectShortName">m_axi_awready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_tensor_processing_unit/m_axi_wdata" type="array">
+      <obj_property name="ElementShortName">m_axi_wdata[63:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axi_wdata[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_tensor_processing_unit/m_axi_wstrb" type="array">
+      <obj_property name="ElementShortName">m_axi_wstrb[7:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axi_wstrb[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_tensor_processing_unit/m_axi_wlast" type="logic">
+      <obj_property name="ElementShortName">m_axi_wlast</obj_property>
+      <obj_property name="ObjectShortName">m_axi_wlast</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_tensor_processing_unit/m_axi_wvalid" type="logic">
+      <obj_property name="ElementShortName">m_axi_wvalid</obj_property>
+      <obj_property name="ObjectShortName">m_axi_wvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_tensor_processing_unit/m_axi_wready" type="logic">
+      <obj_property name="ElementShortName">m_axi_wready</obj_property>
+      <obj_property name="ObjectShortName">m_axi_wready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_tensor_processing_unit/m_axi_bid" type="array">
+      <obj_property name="ElementShortName">m_axi_bid[0:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axi_bid[0:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_tensor_processing_unit/m_axi_bresp" type="array">
+      <obj_property name="ElementShortName">m_axi_bresp[1:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axi_bresp[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_tensor_processing_unit/m_axi_bvalid" type="logic">
+      <obj_property name="ElementShortName">m_axi_bvalid</obj_property>
+      <obj_property name="ObjectShortName">m_axi_bvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_tensor_processing_unit/m_axi_bready" type="logic">
+      <obj_property name="ElementShortName">m_axi_bready</obj_property>
+      <obj_property name="ObjectShortName">m_axi_bready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_tensor_processing_unit/mem_a" type="array">
+      <obj_property name="ElementShortName">mem_a[0:255][31:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_a[0:255][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_tensor_processing_unit/mem_b" type="array">
+      <obj_property name="ElementShortName">mem_b[0:255][31:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_b[0:255][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_tensor_processing_unit/mem_c" type="array">
+      <obj_property name="ElementShortName">mem_c[0:255][31:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_c[0:255][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_tensor_processing_unit/mem_d" type="array">
+      <obj_property name="ElementShortName">mem_d[0:255][31:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_d[0:255][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_tensor_processing_unit/current_read_addr" type="array">
+      <obj_property name="ElementShortName">current_read_addr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">current_read_addr[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_tensor_processing_unit/current_read_len" type="array">
+      <obj_property name="ElementShortName">current_read_len[7:0]</obj_property>
+      <obj_property name="ObjectShortName">current_read_len[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_tensor_processing_unit/read_count" type="array">
+      <obj_property name="ElementShortName">read_count[7:0]</obj_property>
+      <obj_property name="ObjectShortName">read_count[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_tensor_processing_unit/read_active" type="logic">
+      <obj_property name="ElementShortName">read_active</obj_property>
+      <obj_property name="ObjectShortName">read_active</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_tensor_processing_unit/current_write_addr" type="array">
+      <obj_property name="ElementShortName">current_write_addr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">current_write_addr[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_tensor_processing_unit/current_write_len" type="array">
+      <obj_property name="ElementShortName">current_write_len[7:0]</obj_property>
+      <obj_property name="ObjectShortName">current_write_len[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_tensor_processing_unit/write_count" type="array">
+      <obj_property name="ElementShortName">write_count[7:0]</obj_property>
+      <obj_property name="ObjectShortName">write_count[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_tensor_processing_unit/write_active" type="logic">
+      <obj_property name="ElementShortName">write_active</obj_property>
+      <obj_property name="ObjectShortName">write_active</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_tensor_processing_unit/expected_d" type="array">
+      <obj_property name="ElementShortName">expected_d[0:255][31:0]</obj_property>
+      <obj_property name="ObjectShortName">expected_d[0:255][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_tensor_processing_unit/errors" type="array">
+      <obj_property name="ElementShortName">errors[31:0]</obj_property>
+      <obj_property name="ObjectShortName">errors[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_tensor_processing_unit/actual" type="array">
+      <obj_property name="ElementShortName">actual[31:0]</obj_property>
+      <obj_property name="ObjectShortName">actual[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_tensor_processing_unit/status" type="array">
+      <obj_property name="ElementShortName">status[31:0]</obj_property>
+      <obj_property name="ObjectShortName">status[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_tensor_processing_unit/AXI_DATA_WIDTH" type="array">
+      <obj_property name="ElementShortName">AXI_DATA_WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">AXI_DATA_WIDTH[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_tensor_processing_unit/AXI_ADDR_WIDTH" type="array">
+      <obj_property name="ElementShortName">AXI_ADDR_WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">AXI_ADDR_WIDTH[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_tensor_processing_unit/AXI_ID_WIDTH" type="array">
+      <obj_property name="ElementShortName">AXI_ID_WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">AXI_ID_WIDTH[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_tensor_processing_unit/AXI_USER_WIDTH" type="array">
+      <obj_property name="ElementShortName">AXI_USER_WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">AXI_USER_WIDTH[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_tensor_processing_unit/PE_DATA_WIDTH" type="array">
+      <obj_property name="ElementShortName">PE_DATA_WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PE_DATA_WIDTH[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_tensor_processing_unit/ACCUM_WIDTH" type="array">
+      <obj_property name="ElementShortName">ACCUM_WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ACCUM_WIDTH[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_tensor_processing_unit/INPUT_BUF_DEPTH" type="array">
+      <obj_property name="ElementShortName">INPUT_BUF_DEPTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">INPUT_BUF_DEPTH[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_tensor_processing_unit/OUTPUT_BUF_DEPTH" type="array">
+      <obj_property name="ElementShortName">OUTPUT_BUF_DEPTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">OUTPUT_BUF_DEPTH[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_tensor_processing_unit/CORE_ADDR_WIDTH" type="array">
+      <obj_property name="ElementShortName">CORE_ADDR_WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">CORE_ADDR_WIDTH[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_tensor_processing_unit/PE_ARRAY_HEIGHT" type="array">
+      <obj_property name="ElementShortName">PE_ARRAY_HEIGHT[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PE_ARRAY_HEIGHT[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_tensor_processing_unit/PE_ARRAY_WIDTH" type="array">
+      <obj_property name="ElementShortName">PE_ARRAY_WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PE_ARRAY_WIDTH[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_tensor_processing_unit/MATRIX_SIZE_WIDTH" type="array">
+      <obj_property name="ElementShortName">MATRIX_SIZE_WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">MATRIX_SIZE_WIDTH[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_tensor_processing_unit/A_BASE_ADDR" type="array">
+      <obj_property name="ElementShortName">A_BASE_ADDR[31:0]</obj_property>
+      <obj_property name="ObjectShortName">A_BASE_ADDR[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_tensor_processing_unit/B_BASE_ADDR" type="array">
+      <obj_property name="ElementShortName">B_BASE_ADDR[31:0]</obj_property>
+      <obj_property name="ObjectShortName">B_BASE_ADDR[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_tensor_processing_unit/C_BASE_ADDR" type="array">
+      <obj_property name="ElementShortName">C_BASE_ADDR[31:0]</obj_property>
+      <obj_property name="ObjectShortName">C_BASE_ADDR[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_tensor_processing_unit/D_BASE_ADDR" type="array">
+      <obj_property name="ElementShortName">D_BASE_ADDR[31:0]</obj_property>
+      <obj_property name="ObjectShortName">D_BASE_ADDR[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_tensor_processing_unit/ADDR_CONTROL" type="array">
+      <obj_property name="ElementShortName">ADDR_CONTROL[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ADDR_CONTROL[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_tensor_processing_unit/ADDR_MATRIX_SIZE" type="array">
+      <obj_property name="ElementShortName">ADDR_MATRIX_SIZE[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ADDR_MATRIX_SIZE[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_tensor_processing_unit/ADDR_OP_MODE" type="array">
+      <obj_property name="ElementShortName">ADDR_OP_MODE[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ADDR_OP_MODE[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_tensor_processing_unit/ADDR_INPUT_A_ADDR" type="array">
+      <obj_property name="ElementShortName">ADDR_INPUT_A_ADDR[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ADDR_INPUT_A_ADDR[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_tensor_processing_unit/ADDR_INPUT_B_ADDR" type="array">
+      <obj_property name="ElementShortName">ADDR_INPUT_B_ADDR[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ADDR_INPUT_B_ADDR[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_tensor_processing_unit/ADDR_INPUT_C_ADDR" type="array">
+      <obj_property name="ElementShortName">ADDR_INPUT_C_ADDR[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ADDR_INPUT_C_ADDR[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_tensor_processing_unit/ADDR_OUTPUT_D_ADDR" type="array">
+      <obj_property name="ElementShortName">ADDR_OUTPUT_D_ADDR[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ADDR_OUTPUT_D_ADDR[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_tensor_processing_unit/dut/k_dim" type="array">
+      <obj_property name="ElementShortName">k_dim[9:0]</obj_property>
+      <obj_property name="ObjectShortName">k_dim[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_tensor_processing_unit/dut/fetch_index" type="array">
+      <obj_property name="ElementShortName">fetch_index[10:0]</obj_property>
+      <obj_property name="ObjectShortName">fetch_index[10:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_tensor_processing_unit/dut/status_reg_done" type="logic">
+      <obj_property name="ElementShortName">status_reg_done</obj_property>
+      <obj_property name="ObjectShortName">status_reg_done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_tensor_processing_unit/dut/compute_core_inst/current_state" type="array">
+      <obj_property name="ElementShortName">current_state[4:0]</obj_property>
+      <obj_property name="ObjectShortName">current_state[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_tensor_processing_unit/dut/output_d_addr_reg" type="array">
+      <obj_property name="ElementShortName">output_d_addr_reg[31:0]</obj_property>
+      <obj_property name="ObjectShortName">output_d_addr_reg[31:0]</obj_property>
+   </wvobject>
+</wave_config>

@@ -1,0 +1,28 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Wed Apr 23 16:08:14 2025
+# Process ID: 21960
+# Current directory: C:/Users/dell/Desktop/Tensor/project_2/project_2
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent22324 C:\Users\dell\Desktop\Tensor\project_2\project_2\project_2.xpr
+# Log file: C:/Users/dell/Desktop/Tensor/project_2/project_2/vivado.log
+# Journal file: C:/Users/dell/Desktop/Tensor/project_2/project_2\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/dell/Desktop/Tensor/project_2/project_2/project_2.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+open_wave_config C:/Users/dell/Desktop/Tensor/project_2/project_2/project_2.sim/sim_1/tb_tensor_processing_unit_behav.wcfg
+source tb_tensor_processing_unit.tcl
+restart
+run 100 us
+run all
+current_wave_config {tb_tensor_processing_unit_behav.wcfg}
+add_wave {{/tb_tensor_processing_unit/dut/output_d_addr_reg}} 
+restart
+run 100 us
+save_wave_config {C:/Users/dell/Desktop/Tensor/project_2/project_2/project_2.sim/sim_1/tb_tensor_processing_unit_behav.wcfg}
+restart
+run 100 us
+close_sim

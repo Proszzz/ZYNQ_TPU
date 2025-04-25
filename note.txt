@@ -1,0 +1,4 @@
+1. sv文件中的function 调用参数在开头整体声明，比如 logic,int,中间再声明的话，综合会报错
+2. s_axi_rdata_reg[(i+1)*PE_DATA_WIDTH-1 : i*PE_DATA_WIDTH] 综合时报错，即片选前后都是变量，因为这意味着切片的宽度是变化的。在综合时，硬件电路需要确定每个位的位置，但由于宽度是不确定的，这会导致问题。在硬件中，位的位置必须是固定的。改为s_axi_rdata_reg[i*PE_DATA_WIDTH+:PE_DATA_WIDTH]前面是变量，后面为常量
+
+3. axi总线 len代表beat数，定义了该事务中总共进行多少次传输，size代表一个beat的字节，定义了每次传输的大小，注意这里是2^SIZE个字节， assign m_axi_read_arsize = $clog2(AXI_DATA_WIDTH/8);addr是起始地址

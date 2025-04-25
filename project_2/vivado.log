@@ -1,0 +1,22 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Fri Apr 25 12:42:05 2025
+# Process ID: 19184
+# Current directory: C:/Users/dell/Desktop/Tensor/project_2/project_2
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent23320 C:\Users\dell\Desktop\Tensor\project_2\project_2\project_2.xpr
+# Log file: C:/Users/dell/Desktop/Tensor/project_2/project_2/vivado.log
+# Journal file: C:/Users/dell/Desktop/Tensor/project_2/project_2\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/dell/Desktop/Tensor/project_2/project_2/project_2.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.3/data/ip'.
+open_project: Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 772.930 ; gain = 130.637
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Fri Apr 25 12:43:18 2025...
